@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>3. Escreva uma função que recebe dois números e retorna a soma.</title>
+	<script type="text/javascript">
+		function soma(num1,num2){
+			let total = num1 + num2;
+
+			return total;
+		}
+		 console.log(soma(4,5));
+ 		 console.log(soma(10,15));
+ 		 console.log(soma(-3,7));
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+
+<script type="text/javascript">
+	let num1, num2, total, mensagem;
+
+	num1 = Number(prompt("insira o primeiro número:"));
+	num2 = Number(prompt("insira o segundo número:"));
+
+	total = soma(num1,num2);
+
+	mensagem = "A soma dos números "+num1+" e "+num2+" é: "+total;
+
+	document.writeln(mensagem);
+</script>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>6. Escreva uma função que retorne o resultado da divisão inteira entre dois números inteiros.</title>
+		<script type="text/JavaScript">
+			function Divisao(num1,num2){
+				let total = num1 / num2;
+
+				return total;
+			}
+			console.log(Divisao(10,3));
+			console.log(Divisao(9,3));
+			console.log(Divisao(9,2));
+			console.log(Divisao(7,5));
+			console.log(Divisao(0,5));
+		</script>
+</title>
+
+</head>
+<body>
+
+</body>
+</html>
+
+<script type="text/javaScript">
+	let num1,num2,mensagem,total;
+
+	num1 = Number(prompt("Insira o numero que será dividido:"));
+	num2 = Number(prompt("Insira o numero que será o divisor:"));
+
+	total = Divisao(num1,num2);
+
+	mensagem = "O resultado da divisão de "+num1+" por "+num2+" é igual a:"+total;
+
+	document.writeln(mensagem);
+</script>

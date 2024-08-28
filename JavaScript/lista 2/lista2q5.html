@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>5. Escreva uma função que recebe três números e retorna a média deles.</title>
+	<script type="text/javascript">
+		function Media(num1,num2,num3){
+			let total = (num1+num2+num3)/3;
+
+			return total;
+		}
+		console.log(Media(10, 20, 30));
+		console.log(Media(5, 15, 25));
+		console.log(Media(2, 2, 2));
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+
+<script type="text/javascript">
+	let num1,num2,num3,mensagem,total;
+
+	num1 = Number(prompt("insira o primeiro número:"));
+	num2 = Number(prompt("insira o segundo número:"));
+	num3 = Number(prompt("insira o terceiro número:"));
+
+	total = Media(num1,num2,num3);
+
+	mensagem = "A média dos numeros "+num1+", "+num2+" e "+num3+" é: "+total;
+
+	document.writeln(mensagem);
+</script>
