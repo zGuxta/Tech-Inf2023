@@ -6,6 +6,10 @@
 
 Credito das informações: [leocomelli](https://gist.github.com/leocomelli).
 
+## Git Setup
+
+Para instalar o Git no pc basta visitar o site do [Git](https://git-scm.com/downloads) e baixar o arquvo para o seu SO, ou (caso estja utilizando Windows) copiar o comando de instalação e colar no Powershell.
+
 ## Estados
 
 * Modificado (modified);
