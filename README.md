@@ -1,7 +1,7 @@
 # Utilização do Git
 
 > [!TIP]
-> Conteudo pessoa para me ajudar a lembrar os comandos e a utilização correta do Git.
+> Conteudo pessoal para me ajudar a lembrar os comandos e a utilização correta do Git.
 > (*Sinta-se a vontade para pesquisar e corrigir qualquer informação errada. ~Guxta 😃*).
 
 Credito das informações: [leocomelli](https://gist.github.com/leocomelli).
