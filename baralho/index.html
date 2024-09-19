@@ -30,7 +30,6 @@
     }).then(function(jsonData){
         console.log(jsonData);
         const cards = jsonData.cards;
-
         const card1 = document.getElementById('carta1');
         const img = document.createElement('img');
         img.setAttribute('src', cards[0].image);
@@ -56,6 +55,7 @@
             return json;
         }).then(function(jsonData){
         console.log = (jsonData);
+        window.location.reload();
             if(jsonData.success){
                 alert("Baralho embaralhado!")
             }
